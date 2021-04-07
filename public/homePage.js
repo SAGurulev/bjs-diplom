@@ -22,4 +22,6 @@ function getRatesBoard(data) {
 setTimeout(getRatesBoard);
 setInterval(getRatesBoard, 60000);
 
+const moneyManager = new MoneyManager();
+
 
